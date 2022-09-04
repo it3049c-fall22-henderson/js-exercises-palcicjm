@@ -1,3 +1,5 @@
+const { concat } = require("./3.arrays");
+
 /**
  * The following object must contain:
  *  `first_name`property that is of type string
@@ -9,8 +11,20 @@
  *      * must use the `class_of` property in the introduction
  */
 const personObject = {
-
+  first_name: Donald,
+  last_name: Duck,
+  class_of: 2023
 };
+
+function full_name() {
+  concat(first_name, last_name);
+  return;
+}
+
+function introduction() {
+  console.log(full_name(), class_of);
+  return;
+}
 
 module.exports = {
   personObject
