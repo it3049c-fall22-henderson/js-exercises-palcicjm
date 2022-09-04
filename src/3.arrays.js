@@ -5,6 +5,8 @@
  * calling the function like 
  * indexoff(arr, 3); should return the index 2
  */
+arr = [2,4,5,6]
+item = 2
 function indexOf(arr, item) {
   return ;
 }
@@ -33,11 +35,15 @@ function truncate(arr) {
   return ;
 }
 
+arr1 = [4,5,1,6]
+arr2 = [3,5,7,8]
+
 // Concat: you should be able to join together two arrays
 function concat(arr1, arr2) {
   return ;
 }
 
+index = 3
 // Insert: you should be able to add an item at the specified index of an array
 // hint: use splice and pay attention to the return value
 function insert(arr, item, index) {

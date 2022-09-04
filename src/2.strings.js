@@ -1,5 +1,8 @@
 //reverseString: you should be able to reverse a string
 // Example: "abc" => "cba"
+
+str = "Hi there."
+
 function reverseString(str) {
   /**
    * can be achieved by combining: 
