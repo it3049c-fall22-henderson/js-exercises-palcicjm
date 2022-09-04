@@ -1,4 +1,8 @@
+num1 = 2.000;
+num2 = 2.000;
+
 //add: Should be able to add numbers
+
 function add (num1, num2) {
   return ;
 }
@@ -13,6 +17,7 @@ function multiply(num1, num2) {
   return ;
 }
 
+str=something2
 //parseInt: should use parseInt correctly to convert strings to integer numbers
 function parseInt (str) {
   return ;
