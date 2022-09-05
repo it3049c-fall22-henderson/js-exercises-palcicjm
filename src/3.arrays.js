@@ -40,22 +40,28 @@ arr2 = [3,5,7,8]
 
 // Concat: you should be able to join together two arrays
 function concat(arr1, arr2) {
-  return ;
+  arr1 = [4,5,1,6]
+  arr2 = [3,5,7,8]
+  return concat(arr1, arr2);
 }
 
-index = 3
+
 // Insert: you should be able to add an item at the specified index of an array
 // hint: use splice and pay attention to the return value
 function insert(arr, item, index) {
-
-  return ;
+  arr1 = [4,5,1,6]
+  arr1.splice(7,0,3);
+  
+  return arr1.splice(7,0,3);
 }
 
 // Square: you should be able to square each number in an array
 // hint: use .map
 // Example: [1,2,4,5] => [1,4,16,25]
 function square(arr) {
-  return ;
+  arr2 = [3,5,7,8]
+  const map1 = arr2.map(x => x * x);
+  return map1;
 }
 
 module.exports = {
