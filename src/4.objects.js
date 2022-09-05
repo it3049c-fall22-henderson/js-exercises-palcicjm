@@ -11,8 +11,8 @@ const { concat } = require("./3.arrays");
  *      * must use the `class_of` property in the introduction
  */
 const personObject = {
-  first_name: Donald,
-  last_name: Duck,
+  first_name: Jackson,
+  last_name: Palcic,
   class_of: 2023
 };
 

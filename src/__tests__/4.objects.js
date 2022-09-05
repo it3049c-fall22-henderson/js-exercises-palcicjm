@@ -1,5 +1,9 @@
 const {personObject} = require(`../4.objects`);
 
+first_name= Jackson;
+  last_name= Palcic;
+  class_of= 2023;
+
 describe(`4.objects`, () => {
   
   it(`Contains a first_name property`, () => expect(personObject).toHaveProperty(`first_name`));

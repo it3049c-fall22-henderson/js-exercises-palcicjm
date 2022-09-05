@@ -1,5 +1,8 @@
 const flowControlAnswers = require(`../6.flowControl`);
 
+a = truthy;
+b = truthy;
+
 describe(`5.flowControl`, function () {
   it(`returns number when not a multiple of 3 or 5: 1`, () => expect(flowControlAnswers.fizzBuzz(1)).toEqual(1));
   it(`returns number when not a multiple of 3 or 5: 11`, () => expect(flowControlAnswers.fizzBuzz(11)).toEqual(11));

@@ -1,5 +1,11 @@
 const arraysAnswers = require(`../3.arrays`);
 
+arr = [2,4,5,6]
+item = 2;
+arr1 = [4,5,1,6];
+arr2 = [3,5,7,8];
+index = 3;
+
 describe(`3.arrays`, function () {
   describe(`.indexOf()`, () => {
     it(`finds the first index found for the search item`, () => expect(arraysAnswers.indexOf([ 1, 2, 3, 3, 3, 4, 5 ], 3)).toEqual(2));
