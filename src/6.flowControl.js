@@ -6,10 +6,13 @@
  *    if the value was provided was a number but doesn't match any of those criteria, return the number as is.
  *    if no number was provided or if the value provided wasn't a number (hint: typeof), return false
  */
+num = 15;
 function fizzBuzz(num) {
-  
+  expect(flowControlAnswers.fizzBuzz(3)).toEqual(`fizz`);
+  expect(flowControlAnswers.fizzBuzz(10)).toEqual(`buzz`)
+  expect(flowControlAnswers.fizzBuzz(15)).toEqual(`fizzbuzz`)
 }
 
 module.exports = {
   fizzBuzz
-};
+}
