@@ -8,9 +8,23 @@
  */
 num = 15;
 function fizzBuzz(num) {
-  expect(flowControlAnswers.fizzBuzz(3)).toEqual(`fizz`);
-  expect(flowControlAnswers.fizzBuzz(10)).toEqual(`buzz`)
-  expect(flowControlAnswers.fizzBuzz(15)).toEqual(`fizzbuzz`)
+  num = 15;
+  if (num % 3 == 0 && num % 5 != 0) {
+    return `fizz`;
+  }
+  if (num % 5 == 0 && num % 3 != 0) {
+    return `buzz`;
+  }
+  if (num % 3 == 0 && num % 5 == 0) {
+    return `fizzbuzz`;
+  }
+  if (num % 3 != 0 && num % 5 != 0) {
+    return num;
+  }
+  if (num = "" || num == undefined || typeof num != number) {
+    falseVariable = false;
+    return falseVariable;
+  }
 }
 
 module.exports = {
