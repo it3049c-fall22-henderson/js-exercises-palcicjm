@@ -1,9 +1,12 @@
 //reverseString: you should be able to reverse a string
 // Example: "abc" => "cba"
 
-str = "Hi there."
+str = "Hello"
 
 function reverseString(str) {
+  str = "Hello"
+  strArray = str.split();
+  strReverseArray = str.reverse();
   /**
    * can be achieved by combining: 
    *    1. string.prototype.split
@@ -12,19 +15,22 @@ function reverseString(str) {
    * 
    * Can even be done on one line
    */
-  return ;
+  return strReverseArray.join('');
 }
 
 //capitalize: should return the input in all-caps
 // Example: "this is a string" => "THIS IS A STRING"
 function capitalize(str) {
-  return ;
+  str = "Hello"
+  return str.toUpperCase();
 }
 
 // splitString: should divide a string into substrings and return an array
 // Example: "Jane,Doe,21"  =>  [ "Jane", "Doe", "21" ]
 function splitString(str, splitAt = `,`) {
-  return ;
+  str = "Hello"
+  strArray = str.split();
+  return strArray = str.split(`,`);
 }
 module.exports = {
   reverseString,
