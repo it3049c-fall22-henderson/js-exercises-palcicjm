@@ -4,10 +4,13 @@
 val1 = "1";
 val2 = 1;
 function strictEquality(val1, val2) {
-  expect(equalityAnswers.strictEquality(1, `1`)).toBeFalsy();
-  expect(equalityAnswers.strictEquality(1, 1)).toBeTruthy();
-  expect(equalityAnswers.strictEquality(0, false)).toBeFalsy();
-  return ;
+  if (val1 === val2) {
+    return true;
+  }
+  else {
+    return false;
+  }
+  
 }
 //equality: compare value but not necessarily the type
 // Example: equality(1, true) => true
@@ -16,11 +19,14 @@ function strictEquality(val1, val2) {
 val1 = "1";
 val2 = 1;
 function equality(val1, val2) {
-  expect(equalityAnswers.equality(1, `1`)).toBeTruthy();
-  expect(equalityAnswers.equality(1, 1)).toBeTruthy();
-  expect(equalityAnswers.equality(0, false)).toBeTruthy();
-  expect(equalityAnswers.equality(0, 1)).toBeFalsy();
-  return ;
+  if (val1 = val2) {
+    return true;
+  }
+  else {
+    return false;
+  }
+
+
 }
 
 module.exports = {
