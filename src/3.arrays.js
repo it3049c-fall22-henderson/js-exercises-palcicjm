@@ -20,18 +20,18 @@ function sum(arr) {
 // Filter: Should filter out all instances of a value from an array
 // Example: filtering 2 out of [1,2,3,5,6,2,4,2] should return [1,3,5,6,4]
 function filterOut(arr, item) {
-  return arr.filter(item);
+  return arr.filter(item, arr);
 }
 
 // Append: you should be able to add an item to the end of an array
 function append(arr, item) {
-  return push(item,arr);
+  return arr.push(item);
 }
 
 // Truncate: you should be able to remove the last item of an array
 // hint: pop, slice, splice would all work. Pay attention to the return value in the docs
 function truncate(arr) {
-  return arr.splice();
+  return splice(arr);
 }
 
 // Concat: you should be able to join together two arrays
@@ -43,7 +43,8 @@ function concat(arr1, arr2) {
 // Insert: you should be able to add an item at the specified index of an array
 // hint: use splice and pay attention to the return value
 function insert(arr, item, index) {
-  return arr.splice(item,index);
+  variable = arr.splice(item,index);
+  return variable;
 }
 
 // Square: you should be able to square each number in an array
