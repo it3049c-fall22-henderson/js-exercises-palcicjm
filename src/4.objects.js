@@ -16,13 +16,13 @@ const personObject = {
   class_of: 2023
 };
 
-function full_name() {
-  concat(first_name, last_name);
-  return;
+function name(full_name) {
+  full_name = concat(first_name, last_name);
+  return full_name;
 }
 
-function introduction() {
-  console.log(full_name(), class_of);
+function introduction(intro) {
+  intro = concat(full_name, class_of);
   return;
 }
 
