@@ -2,7 +2,7 @@
 falseVariable = false
 // or: should return true if either a or b are truthy. False, if both are false
 function or(a, b) {
-  if (a == truthy || b == truthy) {
+  if (a == true || b == true) {
     trueVariable = true;
     return trueVariable;
   }
@@ -11,7 +11,7 @@ function or(a, b) {
 
 //and: should return true only if both a and b are truthy
 function and(a, b) {
-  if (a && b == truthy) {
+  if (a && b == true) {
     trueVariable = true;
     
     return true;

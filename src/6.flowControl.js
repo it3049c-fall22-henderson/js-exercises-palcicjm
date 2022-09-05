@@ -6,9 +6,7 @@
  *    if the value was provided was a number but doesn't match any of those criteria, return the number as is.
  *    if no number was provided or if the value provided wasn't a number (hint: typeof), return false
  */
-num = 15;
 function fizzBuzz(num) {
-  num = 15;
   if (num % 3 == 0 && num % 5 != 0) {
     return `fizz`;
   }
