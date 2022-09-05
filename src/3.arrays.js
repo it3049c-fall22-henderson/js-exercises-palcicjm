@@ -20,7 +20,7 @@ function sum(arr) {
 // Filter: Should filter out all instances of a value from an array
 // Example: filtering 2 out of [1,2,3,5,6,2,4,2] should return [1,3,5,6,4]
 function filterOut(arr, item) {
-  return filter(item,arr);
+  return arr.filter(item);
 }
 
 // Append: you should be able to add an item to the end of an array
@@ -31,12 +31,12 @@ function append(arr, item) {
 // Truncate: you should be able to remove the last item of an array
 // hint: pop, slice, splice would all work. Pay attention to the return value in the docs
 function truncate(arr) {
-  return splice(arr);
+  return arr.splice();
 }
 
 // Concat: you should be able to join together two arrays
 function concat(arr1, arr2) {
-  return concat(arr1, arr2);
+  return arr1.concat(arr2);
 }
 
 

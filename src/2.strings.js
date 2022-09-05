@@ -4,7 +4,7 @@
 
 function reverseString(str) {
   strArray = str.split();
-  strReverseArray = Array.prototype.reverse(str);
+  strReverseArray = Array.prototype.reverse(strArray);
   /**
    * can be achieved by combining: 
    *    1. string.prototype.split
