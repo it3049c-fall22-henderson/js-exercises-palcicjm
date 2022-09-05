@@ -1,5 +1,3 @@
-num1 = 2.000;
-num2 = 2.000;
 
 //add: Should be able to add numbers
 
@@ -26,7 +24,7 @@ function multiply(num1, num2) {
 
 //parseInt: should use parseInt correctly to convert strings to integer numbers
 function parseInt (str) {
-  str=something2;
+  str="something2";
   return parseInt(str);
 }
 
@@ -36,7 +34,7 @@ function addAndReturn2DecimalPlaces(num1, num2) {
   num1 = 2.000;
   num2 = 2.000;
   const result = Number((num1 + num2).toFixed(2));
-  return ;
+  return result;
 }
 
 module.exports  = {

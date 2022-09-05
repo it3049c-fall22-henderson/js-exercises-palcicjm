@@ -5,10 +5,8 @@
  * calling the function like 
  * indexoff(arr, 3); should return the index 2
  */
-arr = [2,4,5,6]
-item = 2;
 function indexOf(arr, item) {
-  arr = [2,4,5,6]
+  arr = [2,4,5,6];
   index = indexOf(arr, 2);
   return index;
 }
